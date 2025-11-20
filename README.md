@@ -1,5 +1,9 @@
 # Stock Market Analysis and Real-Time Monitoring
 
+![AAPL Candlestick with Volume](images/aapl_candles.png)
+
+Static preview generated via `--candlestick --include-volume`. See the interactive version: [aapl_candles_latest.html](aapl_candles_latest.html).
+
 This project fetches historical and live stock data (Yahoo Finance via `yfinance`), trains an LSTM model for next-price forecasting, visualizes results, and provides operational tooling: live plots, metadata export, periodic daemon logging, and a Flask web UI. Big-data style aggregation is demonstrated with Dask (and optional PySpark if Java is installed). It also supports interactive Plotly candlestick charts with optional volume and multi‑ticker dashboards.
 
 ## Key Features
