@@ -1,0 +1,5 @@
+# Exclude generated artifacts from GitHub Linguist language stats
+# Limit to repo-root exports to avoid impacting future doc sites
+/*.html linguist-generated=true
+/*.jsonl linguist-generated=true
+/meta.json linguist-generated=true
