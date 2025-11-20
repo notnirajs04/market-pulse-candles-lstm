@@ -18,14 +18,10 @@ env/
 # VS Code
 .vscode/
 
-# Data/outputs and logs
-*.html
-*.jsonl
-meta.json
-daemon_log.jsonl
-logs/
+# Data/outputs and logs (track artifacts in repo)
+# logs/
 
-# Models/checkpoints
+# Models/checkpoints (still ignore large/binary weights)
 *.h5
 checkpoints/
 
