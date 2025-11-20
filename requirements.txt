@@ -1,0 +1,12 @@
+yfinance
+pandas
+numpy
+matplotlib
+scikit-learn
+tensorflow
+plotly
+seaborn
+pyspark
+dask[dataframe]
+Flask
+pyspark

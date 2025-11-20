@@ -1,0 +1,38 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual/env folders
+.conda/
+venv/
+.venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# VS Code
+.vscode/
+
+# Data/outputs and logs
+*.html
+*.jsonl
+meta.json
+daemon_log.jsonl
+logs/
+
+# Models/checkpoints
+*.h5
+checkpoints/
+
+# Spark/Dask artifacts
+spark-warehouse/
+.derby/
+
+# OS files
+Thumbs.db
+.DS_Store
